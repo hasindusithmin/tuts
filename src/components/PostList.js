@@ -5,8 +5,8 @@ const PostList = (props) => {
     let cn = (id %2 ===0) ? 'w3-ul w3-pale-green':'w3-ul w3-pale-blue';
     return (
         <ul className={cn} key={id}>
-            <li>{title}</li>
-            <li>{body}</li>
+            <li title="title">{title}</li>
+            <li title="body">{body}</li>
         </ul>
     );
 }
